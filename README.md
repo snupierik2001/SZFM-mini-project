@@ -1,2 +1,2 @@
-# Software
-Group project for a subject
+# SZFM mini projekt
+Mini beadandó a Szoftverfejlesztési módszertanok tantárgyhoz.
