@@ -22,3 +22,17 @@
     * History az előző műveleteknek
 ---
 ## 4. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
+* A weboldal html, css és javscript-tel valósuljon meg
+* Könnyen kezelhető legyen kórtól függetlenül
+* Háttérszín legyen barátságos a szemnek
+* Felhasználói barát legyen
+* Betű típus a csapad döntheti el
+* Legyen reszponzív dizájn
+* A számok legyenek láthatóak benne
+* Alap matematikai műveleteket tudjon megoldani
+* Gombok legyenek láthatóak
+* A keretek és a számok legyenek fekete színűek
+---
+## 5. Fogalomszótár
+* Gombok: működőképes gombnyomás után a számoknak, műveleteknek a megjelenítése
+* Eredmény: matematikai műveletek végrehajtása után az eredmény jó kiiratása az adott mezőre
