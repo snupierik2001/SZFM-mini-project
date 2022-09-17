@@ -52,4 +52,4 @@ Személyenkénti projektrészek:
 
 ## 3. Üzleti folyamatok modellje
 ### 3.x Folyamatábra
-![Folyamatábra](/Software-mini-project/Images/folyamat_abra.png)
+![Folyamatábra](/Images/folyamat_abra.png)
