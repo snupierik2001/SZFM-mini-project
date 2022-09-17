@@ -49,3 +49,7 @@ Személyenkénti projektrészek:
     3. [M-03]-ban megfogalmazott mérföldkő elérése, azaz a HTML és JavaScript összekapcsolása
 
     4. Kész állapot elérésére törekvés, illetve tesztek végrehajtása
+
+## 3. Üzleti folyamatok modellje
+### 3.x Folyamatábra
+![Folyamatábra](/Software-mini-project/Images/folyamat_abra.png)
