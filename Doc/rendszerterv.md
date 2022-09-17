@@ -51,5 +51,40 @@ Személyenkénti projektrészek:
     4. Kész állapot elérésére törekvés, illetve tesztek végrehajtása
 
 ## 3. Üzleti folyamatok modellje
-### 3.x Folyamatábra
+
+### 3.1 Folyamatábra
+- Diákok, hallgatók
+
+### 3.2 Erőforrások
+- Weboldal megjeleítése egyes eszközön
+- Lokális- vagy távoli hálózati kapcsolat
+
+### 3.3 Bemenet:
+- Matematikai műveletek és számok
+
+### 3.4 Entitások:
+- A számológépes weboldal
+
+### 3.5 Kimenet:
+- A diákoknak, hallgatóknak ismert megoldás
+
+### 3.6 Folyamat:
+Iskolai/Céges vagy Helyi szerver segítségével megjelenítjük a számológépet a weboldalra =>
+Diák/Hallgató ki választ egy matematikai műveletet, ha jó a megoldás, akkor a folyamat véget ért. Ha nem, akkor =>
+A számológép kidobja a hibát és a diák/hallgató ki törli a hibás üzenetet egy gomb nyomással =>
+Kiválaszt egy matematikai műveletet és folytatja tovább a számolást.
+
+### 3.7 Folyamatábra
 ![Folyamatábra](/Images/folyamat_abra.png)
+
+### 3.8 Példák
+#### 3.8.1 Példa 1:
+A diák/hallgató hatványozni akar és az alap `2`, a kitevő meg `4` =>
+Beírja a `2-est` és a hatványozás gomb megnyomása után beírja a `4-est` =>
+Eredmény kiíratása.
+
+#### 3.8.2 Példa 2:
+A diák/hallgató `0-val` osztani akarja az `1-est` =>
+Beírja az `1-est` és az osztás gomb megnyomása után beírja a `0-át` =>
+Nem fog tetszeni a számológépnek, ezért hiba üzenetet fog kidobni =>
+A diák/hallgató a törlés gombnyomással kitörli a hiba üzenetet és folytatja tovább a számolást.
