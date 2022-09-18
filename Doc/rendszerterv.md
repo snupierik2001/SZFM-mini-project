@@ -138,3 +138,11 @@ Az alkalmazás web platformra készül.
     * Microsoft Edge
     * Brave
     * Google Chrome
+
+## 7. Architekturális terv
+A rendszer alapja egy HTML, CSS és JavaScript fájlok lesznek.
+A HTML és a CSS fájlok a megjelenítésért felelnek. A JavaScript-ben lesznek a matematikai függvények, amelyek a számításokat végzi majd.
+
+Az alábbi képen lehet szemléltetni a rendszert:
+
+![Folyamatábra](/Images/Architekturalis.png)
