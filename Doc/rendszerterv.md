@@ -88,3 +88,53 @@ A diák/hallgató `0-val` osztani akarja az `1-est` =>
 Beírja az `1-est` és az osztás gomb megnyomása után beírja a `0-át` =>
 Nem fog tetszeni a számológépnek, ezért hiba üzenetet fog kidobni =>
 A diák/hallgató a törlés gombnyomással kitörli a hiba üzenetet és folytatja tovább a számolást.
+
+## 4. Követelmények
+
+### [K01] Hordozhatóság
+    A hordozhatóság a hálózatra való kihelyezéssel vagy a helyileg elérhető fájlokkal fog megvalósulni.
+### [K02] Reszponzív dizájn
+    A reszponzivitás a HTML és CSS segítségével lesz megvalósítva.
+### [K03] Rendszerfüggetlenség
+    A rendszerfüggőség a különböző böngészőben való futattással lesz kiküszöbölve.
+### [K04] Gyors működés
+    Mivel böngészőben elérhető lesz az alkalmazás, így biztosítva van a gyors működés.
+### [K05] Helyi adatfeldolgozás
+    A számítások lokálisan, JavaScript-ben fognak futni.
+### [K06] Pontos számítás
+    A számítások a számítógép által lesznek elvégezve, így azok pontosak és konzisztensek lesznek.
+
+## 5. Funkcionális terv
+
+### 5.1. Az elkészítendő rendszer tulajdonságai
+Egy weboldal, mely
+* hordozható (statikus), hogy lokálisan is használni lehessen
+* reszponzív, hogy mobil eszközökről is kényelmesen használható legyen
+
+### 5.1. Rendszerszereplők
+* Weboldal
+* Szerver - kliens által biztosított
+
+### 5.2. Rendszerhasználati esetek és lefutásaik
+
+#### 5.2.1 Számológép használata
+Legyen a weboldalon 0-9-ig számozott gombok [1], amik megnyomásával az eredmény jelzőn fognak számok megjelenni [4].
+Továbbá legyenek műveleti gombok amik megnyomásával, a már beírt számon hajthatunk végre matematikai műveleteket [3].
+Majd ha végeztünk a számok és a műveletek megadásával, akkor majd meg lehet nyomni a végeredmény gombot [2], amely ennek hatására kiírja az eredmményt.
+![Számológép](/Images/Calculator.png)
+
+#### 5.2.2 Példa: használati eset
+Kezdjük a legegyszerűbb esettel mikor két nagy számot akarunk összeadni legyen ez 158776 és 544664. Először írjuk be a 158776-ot, utána válasszuk ki a nekünk megfelelő műveletett, ami az összeadás lesz. Ezekután beírhatjuk a 544664-et, majd ha már végeztünk és nem akarunk további műveleteket végezni akkor ahhoz, hogy megtudjuk az eredményünket meg kel nyomjuk az eredmény gombot. Miután megnyomtuk az eredmény gombot látjuk majd az eredmény jelzön meglátjuk a megfejtést, ami 703440 lesz.
+
+## 6. Fizikai környezet
+Az alkalmazás web platformra készül.
+* Megvásárolt komponens nincs
+* Kliens által biztosított eszközök:
+    * Webszerver
+* Fejlesztői eszközök:
+    * Visual Studio Code
+    * git
+* Tesztelési környezet:
+    * Microsoft Edge
+    * Brave
+    * Google Chrome
