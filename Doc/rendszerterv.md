@@ -166,7 +166,7 @@ A teszt célja a számológép és egyes weboldal funkciók helyes működésén
 * Teszt konkluzió: 
 * Egyéb megjegyzés:
 
-### Átváltó helyességének tesztelése
+### Számológép helyességének tesztelése
 A program megírása után előszőr azt fogják tesztelni, hogy működik-e a számológép.
 A számológépet manuálisan fogják tesztelni a fejlesztők, ahol különböző matematikai műveleteket fognak használni.
 Ha az eredmény megegyezik a várt eredményyel, akkor a teszt sikeresnek lesz elkönyvelve. Ellenkező esetben a teszt sikertelennek lesz elkönyvelve es a számológép hibás.
