@@ -170,3 +170,16 @@ A teszt célja a számológép és egyes weboldal funkciók helyes működésén
 A program megírása után előszőr azt fogják tesztelni, hogy működik-e a számológép.
 A számológépet manuálisan fogják tesztelni a fejlesztők, ahol különböző matematikai műveleteket fognak használni.
 Ha az eredmény megegyezik a várt eredményyel, akkor a teszt sikeresnek lesz elkönyvelve. Ellenkező esetben a teszt sikertelennek lesz elkönyvelve es a számológép hibás.
+
+## 11. Telepítési terv
+Kétféle módon van lehetőség használni, ebből adódóan pedig kétféle telepítési mód van.
+
+### Online telepítés:
+* A fájlok feltöltése egy weboldal hostolására alkalmas szerverre és az ehhez kapcsolódó beállítások elvégzése.
+* Ezután a weboldal elérhető bármely webböngészővel (Microsoft Edge, Brave, Google Chrome, stb.).
+
+### Offline telepítés:
+* Weboldal fájljainak letöltése személyi eszközre, mint pl: számítógép.
+
+## 12. Karbantartási terv
+A weboldal egyszerűsége miatt nem igényel aktív karbantartást, elegendő a működés során felmerülő hibák javítása és alkalmankénti frissítés.
