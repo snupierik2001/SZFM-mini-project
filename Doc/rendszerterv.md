@@ -146,3 +146,27 @@ A HTML és a CSS fájlok a megjelenítésért felelnek. A JavaScript-ben lesznek
 Az alábbi képen lehet szemléltetni a rendszert:
 
 ![Folyamatábra](/Images/Architekturalis.png)
+
+## 8. Implementációs terv
+Nincsen szükség implementációs tervre, mert minden átlátható.
+
+## 9. Adatbázis terv
+Nincsen szükség adatbázis tervre, mert a programhoz nem szükséges.
+
+## 10. Teszt terv
+
+A teszt célja a számológép és egyes weboldal funkciók helyes működésének tesztelése, illetve a rendszer platformfüggetlenségéről való megbizonyosodás.
+
+### Teszt jegyzet sablon
+* Tesztelő neve:
+* Tesztelt rendszer:
+* Rendszer amin a teszt végbement:
+* Kapott eredmény:
+* Várt eredmény: 
+* Teszt konkluzió: 
+* Egyéb megjegyzés:
+
+### Átváltó helyességének tesztelése
+A program megírása után előszőr azt fogják tesztelni, hogy működik-e a számológép.
+A számológépet manuálisan fogják tesztelni a fejlesztők, ahol különböző matematikai műveleteket fognak használni.
+Ha az eredmény megegyezik a várt eredményyel, akkor a teszt sikeresnek lesz elkönyvelve. Ellenkező esetben a teszt sikertelennek lesz elkönyvelve es a számológép hibás.
