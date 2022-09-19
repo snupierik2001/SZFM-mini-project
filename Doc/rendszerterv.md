@@ -53,7 +53,7 @@ Személyenkénti projektrészek:
 ## 3. Üzleti folyamatok modellje
 
 ### 3.1 Folyamatábra
-- Diákok, hallgatók
+![Folyamatábra](/Images/folyamat_abra.png)
 
 ### 3.2 Erőforrások
 - Weboldal megjeleítése egyes eszközön
@@ -73,9 +73,6 @@ Iskolai/Céges vagy Helyi szerver segítségével megjelenítjük a számológé
 Diák/Hallgató ki választ egy matematikai műveletet, ha jó a megoldás, akkor a folyamat véget ért. Ha nem, akkor =>
 A számológép kidobja a hibát és a diák/hallgató ki törli a hibás üzenetet egy gomb nyomással =>
 Kiválaszt egy matematikai műveletet és folytatja tovább a számolást.
-
-### 3.7 Folyamatábra
-![Folyamatábra](/Images/folyamat_abra.png)
 
 ### 3.8 Példák
 #### 3.8.1 Példa 1:
