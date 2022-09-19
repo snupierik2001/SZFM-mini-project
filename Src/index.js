@@ -24,6 +24,9 @@ buttons.map( button => {
             case '/':
                 display.innerText += e.target.innerText;
                 break;
+            case '*':
+                display.innerText += e.target.innerText;
+                break;
             default:
                 if(display.innerText=='0'){
                     display.innerText='';
