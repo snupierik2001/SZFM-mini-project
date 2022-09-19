@@ -74,13 +74,13 @@ Diák/Hallgató ki választ egy matematikai műveletet, ha jó a megoldás, akko
 A számológép kidobja a hibát és a diák/hallgató ki törli a hibás üzenetet egy gomb nyomással =>
 Kiválaszt egy matematikai műveletet és folytatja tovább a számolást.
 
-### 3.8 Példák
-#### 3.8.1 Példa 1:
+### 3.7 Példák
+#### 3.7.1 Példa 1:
 A diák/hallgató hatványozni akar és az alap `2`, a kitevő meg `4` =>
 Beírja a `2-est` és a hatványozás gomb megnyomása után beírja a `4-est` =>
 Eredmény kiíratása.
 
-#### 3.8.2 Példa 2:
+#### 3.7.2 Példa 2:
 A diák/hallgató `0-val` osztani akarja az `1-est` =>
 Beírja az `1-est` és az osztás gomb megnyomása után beírja a `0-át` =>
 Nem fog tetszeni a számológépnek, ezért hiba üzenetet fog kidobni =>
