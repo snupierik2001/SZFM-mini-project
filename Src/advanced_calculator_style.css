@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(92, 96, 99);
+}
+
+.container {
+    font-weight: bold;
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    border: 0.5px solid white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#display {
+    color: white;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    font-size: 25px;
+}
+
+.buttons {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.button {
+    border: 0.5px solid white;
+    line-height: 85px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: rgb(31, 31, 126);
+    color: white;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
