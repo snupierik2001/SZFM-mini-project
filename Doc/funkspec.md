@@ -21,7 +21,6 @@
     * Hatványozás
     * Clear gomb
     * Végeredmény megjeleítése
-    * History az előző műveleteknek
 ---
 ## 5. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 * A weboldal html, css és javscript-tel valósuljon meg
@@ -33,7 +32,7 @@
 * A számok legyenek láthatóak benne
 * Alap matematikai műveleteket tudjon megoldani
 * Gombok legyenek láthatóak
-* A keretek és a számok legyenek fekete színűek
+* A keretek és a számok legyenek fehér színűek
 ---
 ## 6. Üzleti folyamatok modellje
 * Azért csináljuk ezt a weblapot, ha lennének olyan tanárok akik letiltják a számológépet a gépen, akkor böngészőn keresztül is tudjanak használni számológépet, ezzel megkönnyítjük a dolgozatukat/Zárthelyi dolgozatukat

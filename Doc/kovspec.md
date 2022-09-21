@@ -19,19 +19,18 @@
     * Hatványozás
     * Clear gomb
     * Végeredmény megjeleítése
-    * History az előző műveleteknek
 ---
 ## 4. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
 * A weboldal html, css és javscript-tel valósuljon meg
 * Könnyen kezelhető legyen kórtól függetlenül
 * Háttérszín legyen barátságos a szemnek
 * Felhasználói barát legyen
-* Betű típus a csapad döntheti el
+* Betű típus a csapat döntheti el
 * Legyen reszponzív dizájn
 * A számok legyenek láthatóak benne
 * Alap matematikai műveleteket tudjon megoldani
 * Gombok legyenek láthatóak
-* A keretek és a számok legyenek fekete színűek
+* A keretek és a számok legyenek fehér színűek
 ---
 ## 5. Fogalomszótár
 * Gombok: működőképes gombnyomás után a számoknak, műveleteknek a megjelenítése

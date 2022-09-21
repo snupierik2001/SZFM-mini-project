@@ -27,6 +27,12 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.advanced_buttons {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
 .button {
     border: 0.5px solid white;
     line-height: 85px;
@@ -44,4 +50,15 @@ body {
     background-color: #323330;
     color: white;
     transition: 0.5s ease-in-out;
+}
+
+footer
+{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	background-color: #343a40;
+	color: white;
+	padding: 25px;
+	margin-top: 30px;
 }
