@@ -1,4 +1,4 @@
-# Átváltó rendszerterv
+# Rendszerterv
 
 ## 1. A Rendszer célja
 
@@ -135,6 +135,7 @@ Az alkalmazás web platformra készül.
     * Microsoft Edge
     * Brave
     * Google Chrome
+    * Opera
 
 ## 7. Architekturális terv
 A rendszer alapja egy HTML, CSS és JavaScript fájlok lesznek.
@@ -180,3 +181,13 @@ Kétféle módon van lehetőség használni, ebből adódóan pedig kétféle te
 
 ## 12. Karbantartási terv
 A weboldal egyszerűsége miatt nem igényel aktív karbantartást, elegendő a működés során felmerülő hibák javítása és alkalmankénti frissítés.
+
+## 13. Fogalomszótár
+**HTML:**
+Másnéven HyperText Markup Language, melyet weboldalak készítéséhez fejlesztettek ki.
+
+**CSS:**
+Másnéven Cascading Style Sheets egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
+
+**JavaScript:**
+Egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon gyakran használnak.
