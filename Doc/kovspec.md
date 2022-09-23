@@ -2,7 +2,7 @@
 
 ## 1. Jelenlegi helyzet leírása
 
-* Éveinkben az általános iskolások, közép iskolások, egyetemisták nem tudnak hozzá férni a számológpéhez matek dolgozatok megírásakor, ezért megkérjük a csapatot, hogy írjon meg egy funkcionális számológépetet a weboldalon.
+* Éveinkben az általános iskolások, közép iskolások, egyetemisták nem tudnak hozzá férni a számológpéhez matek dolgozatok megírásakor, ezért megkérjük a csapatot, hogy írjon meg egy funkcionális számológépetet és jelenítsék meg egy weboldalon keresztül.
 ---
 ## 2. Megrendelői cél
 * A diákok/hallgatók könnyen hozzáférhessenek

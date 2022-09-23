@@ -1,52 +1,91 @@
 # Funkcionális specifikáció
 
-## 1. A rendszernek a céljai
+## 1. Jelenlegi helyzet leírása
+* A cég megkért minket és mondták, hogy könnyítsük meg a diákok/hallgatók életét egy számológép megírásával és jelenítsük meg egy weboldalon. Beleértve azt is, hogy a korosztálytól függetlenül is legyen jól használható.
+---
+## 2. A rendszernek a céljai
 * Felhasználó barát (korosztálytol független)
 * Működőképes funkciók, műveletek
+* A számológépnek bárhonnan és bármikor hozzáférhető legyen az interneten hibamentesen, sebességben megfelelően
+* A tanulók/hallgatók az alap, illetve a haladó matematikai műveletekre hozzáférhessenek egy gomb nyomással.
+* A weboldal tartalmazzon két gombot, ahol tudnak váltani két számológép között (alap és haladó)
+* A weboldal 3 nyelven legyen elérhető (Magyar, Angol, Kínai)
+* Könnyen kezelhető legyen kórtól függetlenül
+* Alap és haladó matematikai műveleteket tudjon megoldani
 ---
-## 2. Jelenlegi helyzet leírása
-* A megrendelő cég alapján programoznunk kell egy reszponzív weboldalas számológépet ami működö képes legyen.
-* Interneten könnyen elérhetőnek kell lennie.
----
-## 3. Vágyalom rendzser leírása
-* A weboldalt html, css és javscriptben kell megvalósítanunk, illetve a funkciók jól működjenek, azaz legyen hiba kezelés is benne.
+## 3. Vágyalom rendszer leírása
+* A weboldalt HTML, CSS és JavaScriptben fogjuk megvalósítani, legfontosabb, hogy ha implementálunk gombokat, amely lenyomással a számolások, funkciók, számológépek közötti váltások, nyelvi opciók funkcionálása jól működjenek és hibza kezeléssel legyenek kezelve.
 ---
 ## 4. Funkcionális követelmények
-* Az alábbi funkciókat érhessék el a tanulók:
+* Az alábbi funkciókat érhessék el a tanulók/hallgatók az alap számológépnél:
     * Összeadás
     * Kivonás
     * Szorzás
     * Osztás
+    * Clear gomb
+    * Zárojelek alkalmazása
+    * Végeredmény megjeleítése
+* Illetve a haladó számológépnél:
     * Gyökvonás
     * Hatványozás
-    * Clear gomb
-    * Végeredmény megjeleítése
+    * Logaritmus
+    * Modulus
+    * Faktorizálás
 ---
-## 5. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása
-* A weboldal html, css és javscript-tel valósuljon meg
-* Könnyen kezelhető legyen kórtól függetlenül
+## 5. Megrendelői követelmény
 * Háttérszín legyen barátságos a szemnek
 * Felhasználói barát legyen
-* Betű típus a csapad döntheti el
+* Betű típus legyen látható
 * Legyen reszponzív dizájn
 * A számok legyenek láthatóak benne
-* Alap matematikai műveleteket tudjon megoldani
 * Gombok legyenek láthatóak
 * A keretek és a számok legyenek fehér színűek
 ---
-## 6. Üzleti folyamatok modellje
-* Azért csináljuk ezt a weblapot, ha lennének olyan tanárok akik letiltják a számológépet a gépen, akkor böngészőn keresztül is tudjanak használni számológépet, ezzel megkönnyítjük a dolgozatukat/Zárthelyi dolgozatukat
-* Ezen kívűl a felhasználóknak a ZH-ra/vizsgára felkészülésük érdekében lehetőségük lesz arra, hogy különböző színtű tanuló anyagokból válasszanak
-* Ráadásul matematikai képleteket használására is jó lesz a számológép 
-* Felhasználók függvényeket is írhatnak, így az általatuk írt feleadat eredményét tudják ellenőrizni
+## 6. Jelenlegi üzleti folyamatok modellje
+* Sajnálatos módon a mai világban az oktatás nem használja ki megfelelő módon a technológiát arra, hogy a diákoknak/hallgatóknak egy jól funkcionáló számológépet biztosítsanak, ezért sokkal nehezebb nekik megírni az adott feladatot.
+Ebben a korszakban is ritkán használnak számológépet interneten keresztül, többsége leginkább papíron számol, amely sok papírpazarláshoz vezet.
+
 ---
-## 7. Képernyő tervek
+## 7. Igényelt üzleti folyamatok modellje
+* Azért írjuk meg ezt a weboldalt, mert a cég megkért minket és mondták, hogy könnyítsük meg a diákok/hallgatók életét egy számológép megírásával és jelenítsük meg egy weboldalon.
+---
+## 8. Követelménylista
+* [K01] Hordozhatóság
+* [K02] Reszponzív dizájn
+* [K03] Rendszerfüggetlenség
+* [K04] Gyors működés
+* [K05] Könnyű kezelhetőség
+* [K06] Helyi adatfeldolgozás
+* [K07] Pontos számítás
+--- 
+## 9. Használati esetek
+A program az iskoláktól/egyetemektől függetlenül bárkinek és bárhol hozzáférhető lesz.
+--- 
+## 8. Képernyő tervek
 * A weboldal megnyitásakor egy alap számológép(9 gombos) fogja várni a felhasználókat, amit az alap műveletek elvégzésére tudnak használni
-* Ezen kívül különböző menü pontok alapján tudják elérni az oktató anyagokat
-* Lenyíló felületben tudják kiválasztani a nekik megfelelő függvényeket/képleteket
-* Különböző nyelveket is tudnak választani a felhasználók
-* Support felület ahol kapcsolatban tudnak lépni a fejlesztőkkel
-* Gyakran ismétlődő kérdések felület
+* Ezen kívül két gomb található a weboldal tetején, ahol a tanulók/hallgatók az alap-, haladó számológépek között tudnak váltani
+* Lesz még egy lenyíló felület, ahol kitudják választani a nekik megfelelő nyelvet
+* Az alábbi minta képen jobban lehet látni:
+
+![Képernyő terv](../Images/kepernyo_terv.png)
+
+* A mintán látható számológép még nem végleges, viszont a kép remekül bemutatja az alakalmazás elrendezésének tervét.
+---
+## 9. Forgatókönyvek
+### 9.1 A felhasználó belép a weboldalra
+Kiválasztja a kívánt számológépet (alapértelmezett a 9 gombos számológép) és dolgozhat azzal.
+### 9.2 A felhasználó beírja a neki szükséges számokat
+Gombnyomás segítségével kiválasztja a számokat és azokkal kiszámolja az eredményt.
+### 9.3 A felhasználó leolvassa az eredményt
+Egyenlőség gomb lenyomásával megkapja az eredményt és tovább halad.
+
 ---
 ## 8. Fogalomszótár
-* Eredmény: matematikai műveletek végrehajtása után az eredmény jó kiíratása az adott mezőre és hibakezeléssel megvizsgálja az adott eredményt
+* **Gombok**: működőképes gombnyomás után a számoknak, műveleteknek a megjelenítése
+* **Eredmény**: matematikai műveletek végrehajtása után az eredmény jó kiiratása az adott mezőre
+* **HTML:**
+Másnéven HyperText Markup Language, melyet weboldalak készítéséhez fejlesztettek ki.
+* **CSS:**
+Másnéven Cascading Style Sheets egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
+* **JavaScript:**
+Egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon gyakran használnak.
