@@ -61,7 +61,7 @@ Ebben a korszakban is ritkán használnak számológépet interneten keresztül,
 ## 9. Használati esetek
 * A program az iskoláktól/egyetemektől függetlenül bárkinek és bárhol hozzáférhető lesz.
 --- 
-## 8. Képernyő tervek
+## 10. Képernyő tervek
 * A weboldal megnyitásakor egy alap számológép(9 gombos) fogja várni a felhasználókat, amit az alap műveletek elvégzésére tudnak használni
 * Ezen kívül két gomb található a weboldal tetején, ahol a tanulók/hallgatók az alap-, haladó számológépek között tudnak váltani
 * Lesz még egy lenyíló felület, ahol kitudják választani a nekik megfelelő nyelvet
@@ -71,16 +71,16 @@ Ebben a korszakban is ritkán használnak számológépet interneten keresztül,
 
 * A mintán látható számológép még nem végleges, viszont a kép remekül bemutatja az alakalmazás elrendezésének tervét.
 ---
-## 9. Forgatókönyvek
-### 9.1 A felhasználó belép a weboldalra
+## 11. Forgatókönyvek
+### 11.1 A felhasználó belép a weboldalra
 Kiválasztja a kívánt számológépet (alapértelmezett a 9 gombos számológép) és dolgozhat azzal.
-### 9.2 A felhasználó beírja a neki szükséges számokat
+### 11.2 A felhasználó beírja a neki szükséges számokat
 Gombnyomás segítségével kiválasztja a számokat és azokkal kiszámolja az eredményt.
-### 9.3 A felhasználó leolvassa az eredményt
+### 11.3 A felhasználó leolvassa az eredményt
 Egyenlőség gomb lenyomásával megkapja az eredményt és tovább halad.
 
 ---
-## 8. Fogalomszótár
+## 12. Fogalomszótár
 * **Gombok**: működőképes gombnyomás után a számoknak, műveleteknek a megjelenítése
 * **Eredmény**: matematikai műveletek végrehajtása után az eredmény jó kiiratása az adott mezőre
 * **HTML:**
