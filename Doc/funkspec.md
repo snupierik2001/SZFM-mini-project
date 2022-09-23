@@ -59,7 +59,7 @@ Ebben a korszakban is ritkán használnak számológépet interneten keresztül,
 * [K07] Pontos számítás
 --- 
 ## 9. Használati esetek
-A program az iskoláktól/egyetemektől függetlenül bárkinek és bárhol hozzáférhető lesz.
+* A program az iskoláktól/egyetemektől függetlenül bárkinek és bárhol hozzáférhető lesz.
 --- 
 ## 8. Képernyő tervek
 * A weboldal megnyitásakor egy alap számológép(9 gombos) fogja várni a felhasználókat, amit az alap műveletek elvégzésére tudnak használni
